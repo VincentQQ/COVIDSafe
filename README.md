@@ -39,10 +39,10 @@ This is a repository for ELEC5619 project.
 1. Temperature: Patients are required to take the temperature every day according to the method taught at the hospital and upload it to the specified area on their own.
 2. Position: Patients also need to record their current location information daily, their room number for uniform isolation and their full address for home isolation
 3. Physical condition: In addition to basic information, patients are asked to answer the following questions about their health on a daily basis
- 1. Did patients feel like vomiting the last day
- 2. Did patients feel cold the last day
- 3. Did patients feel dizzy the last day
- 4. Did patients feel nauseous the last day
- 5. Did patients have running noses the last  day
- 6. Did patients have any shortness of breath the last day
+..1. Did patients feel like vomiting the last day
+..2. Did patients feel cold the last day
+..3. Did patients feel dizzy the last day
+..4. Did patients feel nauseous the last day
+..5. Did patients have running noses the last  day
+..6. Did patients have any shortness of breath the last day
 
