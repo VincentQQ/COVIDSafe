@@ -1,0 +1,36 @@
+.login{
+  .header {
+    width: 100vw;
+    height: 50px;
+    background-color: #adc6d1;
+  }
+  .main {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: #cef0ff;
+    padding-top: 60px;
+    .title {
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+    .ant-form {
+      width: 300px;
+      margin: auto;
+      // .ant-input-affix-wrapper,#basic_name {
+      //   height: 40px;
+      // }
+      .ant-form-item-explain-error {
+        text-align: left;
+      }
+    }
+    .bot-bottom {
+      width: 350px;
+      border-top: 2px solid #ccc;
+      font-size: 16px;
+      padding-top: 10px;
+      color: #666;
+      text-align: center;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.profile {
+  width: calc(100vw - 200px);
+  img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -45px;
+    border: 5px solid #cfd4d6;
+  }
+  .prifile-par {
+    width: 750px;
+    overflow: hidden;
+    margin: auto;
+  }
+  .profile-name {
+    font-size: 18px;
+    color: #666;
+    font-weight: 600;
+  }
+  .profile-input {
+    width: 350px;
+    margin: auto;
+    float: left;
+    text-align: center;
+    &.dd {
+      margin-left: 50px;
+    }
+  }
+  .ant-input-group-addon {
+    width: 90px;
+  }
+  .ant-input-group-wrapper {
+    margin-bottom: 20px;
+  }
+}

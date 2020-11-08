@@ -1,0 +1,90 @@
+.
+├── COVIDSafe.iml
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── magic
+│   │   │           ├── Bean
+│   │   │           │   └── UserResponse.java
+│   │   │           ├── COVIDSafeApplication.java
+│   │   │           ├── config
+│   │   │           │   └── CorsConfig.java
+│   │   │           ├── controller
+│   │   │           │   ├── DoctorController.java
+│   │   │           │   ├── PatientController.java
+│   │   │           │   └── UserController.java
+│   │   │           ├── dao
+│   │   │           │   ├── AppointmentDao.java
+│   │   │           │   ├── DoctorDao.java
+│   │   │           │   ├── PatientDao.java
+│   │   │           │   └── StateDao.java
+│   │   │           ├── domain
+│   │   │           │   ├── Appointment.java
+│   │   │           │   ├── Doctor.java
+│   │   │           │   ├── Patient.java
+│   │   │           │   └── State.java
+│   │   │           └── service
+│   │   │               ├── DoctorService.java
+│   │   │               ├── PatientService.java
+│   │   │               ├── UserService.java
+│   │   │               └── impl
+│   │   │                   ├── DoctorServiceImpl.java
+│   │   │                   ├── PatientServiceImpl.java
+│   │   │                   └── UserServiceImpl.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       ├── static
+│   │       └── templates
+│   │           └── test.html
+│   └── test
+│       └── java
+│           └── com
+│               └── magic
+│                   └── COVIDSafeApplicationTests.java
+├── target
+│   ├── classes
+│   │   ├── application.properties
+│   │   ├── com
+│   │   │   └── magic
+│   │   │       ├── Bean
+│   │   │       │   └── UserResponse.class
+│   │   │       ├── COVIDSafeApplication.class
+│   │   │       ├── config
+│   │   │       │   └── CorsConfig.class
+│   │   │       ├── controller
+│   │   │       │   ├── DoctorController.class
+│   │   │       │   ├── PatientController.class
+│   │   │       │   └── UserController.class
+│   │   │       ├── dao
+│   │   │       │   ├── AppointmentDao.class
+│   │   │       │   ├── DoctorDao.class
+│   │   │       │   ├── PatientDao.class
+│   │   │       │   └── StateDao.class
+│   │   │       ├── domain
+│   │   │       │   ├── Appointment.class
+│   │   │       │   ├── Doctor.class
+│   │   │       │   ├── Patient.class
+│   │   │       │   └── State.class
+│   │   │       └── service
+│   │   │           ├── DoctorService.class
+│   │   │           ├── PatientService.class
+│   │   │           ├── UserService.class
+│   │   │           └── impl
+│   │   │               ├── DoctorServiceImpl.class
+│   │   │               ├── PatientServiceImpl.class
+│   │   │               └── UserServiceImpl.class
+│   │   └── templates
+│   │       └── test.html
+│   ├── generated-sources
+│   │   └── annotations
+│   ├── generated-test-sources
+│   │   └── test-annotations
+│   └── test-classes
+│       └── com
+│           └── magic
+│               └── COVIDSafeApplicationTests.class
+└── tree.txt
+
+38 directories, 49 files

@@ -1,0 +1,47 @@
+.patient{
+  .main {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: #f4fcff;
+    padding-top: 60px;
+    .title {
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+    .ant-form {
+      width: 300px;
+      // margin: auto;
+      margin-left: 50px;
+      overflow: hidden;
+      .ant-row {
+        width: 300px;
+        &:last-child {
+          width: 100%;
+          margin-left: 0;
+        }
+      }
+      // .ant-input-affix-wrapper,#basic_name {
+      //   height: 40px;
+      // }
+      .ant-form-item-explain-error {
+        text-align: left;
+      }
+      
+    }
+    .bot-bottom {
+      width: 350px;
+      border-top: 2px solid #ccc;
+      font-size: 16px;
+      padding-top: 10px;
+      color: #666;
+      text-align: center;
+      margin: auto;
+    }
+  }
+}
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector {
+  text-align: left !important;
+}
+.ant-form-item-control-input-content {
+  text-align: left !important;
+}

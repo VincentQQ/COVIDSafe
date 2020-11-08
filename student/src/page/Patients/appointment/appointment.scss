@@ -1,0 +1,29 @@
+.appointment {
+  height: calc(100vh - 50px);
+  background-color: #f4fcff;
+  text-align: left;
+  padding: 20px;
+  p {
+    margin: 0;
+  }
+  .appointment-header {
+    font-size: 24px;
+    color: #233b5c;
+    overflow: hidden;
+    p {
+      float: left;
+    }
+    .ant-input {
+      width: 200px;
+      float: right;
+      border-radius: 5px;
+    }
+  }
+}
+
+.appoform {
+  text-align: right;
+  .ant-btn {
+    margin: 0 0 0 20px;
+  }
+}

@@ -1,0 +1,44 @@
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  background: #233b5c !important;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background: rgba(69, 146, 255, 0.384) !important;
+
+}
+.menu {
+  height: 100vh;
+  background: #233b5c;
+  position: relative;
+  .ant-btn.ant-btn-text {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    color: #fff;
+  }
+  .menu-title {
+    text-align: left;
+    padding: 40px 0 0 15px;
+    .general {
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 15px;
+      color: #fcfcfc;
+    }
+    .title-img {
+      display: flex;
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+      &>div {
+        margin-left: 20px;
+        padding-top: 10px;
+      }
+      p {
+        margin: 0;
+        color: #fcfcfc;
+      }
+    }
+  }
+}

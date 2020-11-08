@@ -1,0 +1,20 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  .home-header {
+    height: 50px;
+    width: calc(100vw - 200px);
+    background-color: #cfd4d6;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .home-main {
+    position: absolute;
+    width: calc(100vw - 200px);
+    height: calc(100vh - 50px);
+    right: 0;
+    bottom: 0;
+  }
+}
