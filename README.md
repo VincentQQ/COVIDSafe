@@ -183,7 +183,9 @@ Dao layer is mainly for data operations, including the addition, deletion, modif
 The connection between the front end and the back end is in strict accordance with the interface document specified in advance,  in order to facilitate the implementation of this process, we introduced the specification of swagger. In this way, the interface function can be tested with the help of swagger. You can visit this by logging into this [Swagger](http://localhost:8080/swagger-ui.html#/)  in your browser. In this, we can simulate different front-end input observations and test the corresponding output results.
 
 <img src="/Users/yaoyuan/Library/Application Support/typora-user-images/image-20201109012555076.png" alt="image-20201109012555076" style="zoom: 50%;" />
+
 ![api](/api.png)
+
 # Dependencies
 
 ```xml
