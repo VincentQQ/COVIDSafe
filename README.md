@@ -2,6 +2,7 @@
 This is a repository for ELEC5619 project.
 As the Covid-19 has become a global health crisis, the demands of the innovative technologies on public health surges. This project provides a WebApp to serve doctors who need to detect and monitor the condition of patients, as well as, patients who are required to keep updating the medical information.
 
+# The main features includes:
 ## Doctor:
 ### Account Management for Doctor
 1. Register: the system should allow doctor to register
@@ -47,4 +48,19 @@ doctor can view a list of patients which shows ID, name, gender, age, state, and
   * Did patients feel nauseous the last day?
   * Did patients have running noses the last day?
   * Did patients have any shortness of breath the last day?
+  
+# Guild to Run the Project
+
+# File Structure
+
+# Implementation
+## Views
+## Controllers
+## DAO
+## Tests
+
+# Dependencies
+ 
+ 
+
 
