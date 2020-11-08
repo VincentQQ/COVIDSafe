@@ -51,6 +51,37 @@ doctor can view a list of patients which shows ID, name, gender, age, state, and
   
 # Guild to Run the Project
 
+1. Configure database connection information 
+
+~~~java
+server.port=8080
+
+spring.datasource.url = jdbc:mysql://localhost:3306/COVIDSafe
+spring.datasource.username = username
+spring.datasource.password = 19980618
+spring.datasource.driverClassName = com.mysql.cj.jdbc.Driver
+
+spring.jpa.generate-ddl=true
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.database-platform = org.hibernate.dialect.MySQL5Dialect
+~~~
+
+2. Start the back-end program
+
+~~~
+$ javac COVIDSafe/src/main/java/com/magic/COVIDSafeApplication.java
+$ java COVIDSafe/src/main/java/com/magic/COVIDSafeApplication
+~~~
+
+3. Start the front-end program
+
+~~~
+$ cd student
+$ yarn start
+~~~
+
+
+
 # File Structure
 
 # Implementation
